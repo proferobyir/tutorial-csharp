@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Clases y Objetos en C#: Modificadores de Acceso y Encapsulamiento</h1>
+    
+    <h2>¿Qué es el Encapsulamiento?</h2>
+    <p>El encapsulamiento es uno de los pilares fundamentales de la programación orientada a objetos (POO). Consiste en ocultar el estado interno y los datos de un objeto, permitiendo el acceso a ellos únicamente a través de métodos o propiedades controladas.</p>
+
+    <h2>¿Para qué sirve?</h2>
+    <ul>
+        <li>Protege la integridad de los datos evitando que código externo modifique los valores de forma indebida o inválida.</li>
+        <li>Oculta la complejidad interna de cómo funciona una clase, exponiendo solo lo necesario para que otros objetos interactúen con ella.</li>
+    </ul>
+
+    <h2>Modificadores de Acceso en C#</h2>
+    <p>Los modificadores de acceso son palabras clave que se utilizan para definir la visibilidad o accesibilidad de una clase, método, propiedad o variable dentro de un programa. En C# (versión 5 y otras), los principales son:</p>
+
+    <h2>Public (Público)</h2>
+    <p><strong>¿Qué hace?</strong> El elemento es totalmente accesible desde cualquier parte del programa, ya sea dentro de la misma clase, en clases derivadas o desde otro espacio de nombres completamente externo.</p>
+    <p>Ejemplo práctico:</p>
+    <div class="image-box">
+        <img src="imgproyecto/public.png" alt="Ejemplo public" style="max-width: 100%; height: auto;">
+    </div>
+
+    <h2>Private (Privado)</h2>
+    <p><strong>¿Qué hace?</strong> Es el nivel más restrictivo. El elemento solo puede ser leído o modificado dentro de la misma clase donde fue declarado. Ninguna otra clase (ni siquiera las hijas) puede acceder a él. Es la base principal para lograr el encapsulamiento.</p>
+    <p>Ejemplo práctico:</p>
+    <div class="image-box">
+        <img src="imgproyecto/private.png" alt="Ejemplo private" style="max-width: 100%; height: auto;">
+    </div>
+
+    <h2>Protected (Protegido)</h2>
+    <p><strong>¿Qué hace?</strong> Permite que el elemento sea accesible dentro de su misma clase y también por clases herederas (derivadas), pero permanece oculto para el resto del mundo exterior.</p>
+    <p>Ejemplo práctico:</p>
+    <div class="image-box">
+        <img src="imgproyecto/protected.png" alt="Ejemplo protected" style="max-width: 100%; height: auto;" >
+    </div>
+
+    <h2>Internal (Interno)</h2>
+    <p><strong>¿Qué hace?</strong> El elemento es accesible únicamente dentro de los archivos del mismo ensamblado (proyecto o DLL), pero no desde otros proyectos externos. (Nota: Es el modificador por defecto cuando declaras una clase sin especificar nada).</p>
+    <p>Ejemplo práctico:</p>
+    <div class="image-box">
+        <img src="imgproyecto/internal.png" alt="Ejemplo internal" style="max-width: 100%; height: auto;">
+    </div>
+
+</div>  
+</body>
+</html>
