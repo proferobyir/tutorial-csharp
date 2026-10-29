@@ -1,6 +1,17 @@
 /* Configuración general: Fuente Arial y color negro exigidos por normas APA */
+
+@font-face{
+    font-family:
+     font-family: 'MiFuentePersonalizada';
+     src: url('../fonts/militech_r_2019-04-13.woff2')format('woff2'), 
+     font-weight: normal;
+     font-style: normal;
+     font-display: swap;')  format('woff2'), 
+     font-weight: normal; 
+     font-display: swap;
+}
 body {
-    font-family: Arial, sans-serif;
+    font-family: MiFuentePersonalizada;
     color: #000000;
     background-color: #0672a3;
     line-height: 1.6;
